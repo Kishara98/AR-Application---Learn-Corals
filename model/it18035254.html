@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <script src="https://aframe.io/releases/0.7.1/aframe.min.js"></script>
+    <script src="https://jeromeetienne.github.io/AR.js/aframe/build/aframe-ar.js"></script>
+    <script src="https://rawgit.com/donmccurdy/aframe-extras/master/dist/aframe-extras.loaders.min.js"></script>
+
+<body>
+    <style>
+        body {
+            overflow: hidden;
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        #menu {
+            width: 100%;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            position: absolute;
+            z-index: 999;
+            bottom: 0px;
+            background: rgba(0, 0, 0, 0.5);
+
+        }
+
+        a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 19px;
+            font-family: sans-serif;
+        }
+
+        .a-canvas {
+            position: absolute !important;
+
+        }
+    </style>
+
+    <div id="menu">
+        <a href="it16076594.html" class="active">Dalees Coral</a>
+        <a href="it18035018.html">Brain Coral</a>
+        <a href="it18035254.html">Fossil Coral</a>
+        <a href="it18048056.html">Acropora</a>
+
+    </div>
+
+    <a-scene embedded vr-mode-ui="enabled: false;" arjs="debugUIEnabled: false;">
+        <a-marker preset="custom" type="pattern" url="../markers/Fossil.patt">
+            <a-entity gltf-model="url(/model/rashitha/scene.gltf)" scale="0.4 0.4 0.4" rotation="0 0 0"
+                rotation="0 0 0">
+                <a-animation attribute="rotation" easing="linear" dur="10000" to="0 360 0" repeat="indefinite">
+                </a-animation>
+            </a-entity>
+            <a-image src="../images/rashitha.jpg" position="1.65 1 0" width="1.4px" height="2px"></a-image>
+
+        </a-marker>
+
+        <a-entity camera></a-entity>
+    </a-scene>
+</body>
+
+</html>

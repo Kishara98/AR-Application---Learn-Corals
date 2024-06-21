@@ -1,0 +1,277 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 16541,
+      "max": [
+        1.4336479902267456,
+        -14.390575408935547,
+        1.7889519929885864
+      ],
+      "min": [
+        -1.6559510231018066,
+        -17.078361511230469,
+        -1.8594900369644165
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 198492,
+      "componentType": 5126,
+      "count": 16541,
+      "max": [
+        0.99961626529693604,
+        0.99987047910690308,
+        0.99987673759460449
+      ],
+      "min": [
+        -0.99998021125793457,
+        -0.99988102912902832,
+        -0.99977362155914307
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 16541,
+      "max": [
+        0.9965510368347168,
+        0.99685937166213989,
+        0.99998509883880615,
+        1
+      ],
+      "min": [
+        -0.99988633394241333,
+        -0.99965792894363403,
+        -0.99996167421340942,
+        -1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 16541,
+      "max": [
+        0.98164600133895874,
+        0.9958069920539856
+      ],
+      "min": [
+        0.061721999198198318,
+        0.0026859999634325504
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 95988,
+      "max": [
+        16540
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Z3D (https://sketchfab.com/3d_scanning_nz)",
+      "license": "CC-BY-NC-SA-4.0 (http://creativecommons.org/licenses/by-nc-sa/4.0/)",
+      "source": "https://sketchfab.com/3d-models/3d-scan-brain-coral-38baa59e28a64c268eadce5734230ea1",
+      "title": "3D Scan: Brain Coral"
+    },
+    "generator": "Sketchfab-8.11.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 383952,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 132328,
+      "byteOffset": 383952,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 396984,
+      "byteOffset": 516280,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 264656,
+      "byteOffset": 913264,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 1177920,
+      "uri": "scene.bin"
+    }
+  ],
+  "extensionsRequired": [
+    "KHR_materials_pbrSpecularGlossiness"
+  ],
+  "extensionsUsed": [
+    "KHR_materials_pbrSpecularGlossiness"
+  ],
+  "images": [
+    {
+      "uri": "textures/material_0_diffuse.jpeg"
+    },
+    {
+      "uri": "textures/material_0_normal.jpeg"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": false,
+      "emissiveFactor": [
+        0.20000000000000001,
+        0.20000000000000001,
+        0.20000000000000001
+      ],
+      "emissiveTexture": {
+        "index": 0,
+        "texCoord": 0
+      },
+      "extensions": {
+        "KHR_materials_pbrSpecularGlossiness": {
+          "diffuseFactor": [
+            0.69999999999999996,
+            0.69999999999999996,
+            0.69999999999999996,
+            1
+          ],
+          "diffuseTexture": {
+            "index": 0,
+            "texCoord": 0
+          },
+          "glossinessFactor": 0,
+          "specularFactor": [
+            0.02,
+            0.02,
+            0.02
+          ]
+        }
+      },
+      "name": "material_0",
+      "normalTexture": {
+        "index": 1,
+        "scale": 0.59999999999999998,
+        "texCoord": 0
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        0.078880339860916138,
+        -0.88762438297271729,
+        0.45376300811767578,
+        0,
+        0.22023852169513702,
+        -0.4284171462059021,
+        -0.87632972002029419,
+        0,
+        0.97225147485733032,
+        0.16906127333641052,
+        0.16169539093971252,
+        0,
+        3.3972527980804443,
+        -22.568136215209961,
+        -13.767746925354004,
+        1
+      ],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [
+        3
+      ],
+      "name": "brainCoral_lowRes.obj.cleaner.materialmerger.gles"
+    },
+    {
+      "mesh": 0,
+      "name": ""
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    }
+  ]
+}
+
